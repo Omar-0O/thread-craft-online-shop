@@ -17,35 +17,35 @@ interface Service {
 const SERVICES: Service[] = [
   {
     id: '1',
-    title: 'Custom Clothing Embroidery',
-    description: 'Add personalized designs, names, or logos to any clothing item.',
+    title: 'تطريز ملابس مخصصة',
+    description: 'إضافة تصاميم شخصية، أسماء، أو شعارات على أي قطعة ملابس.',
     icon: '👕',
-    details: 'Our clothing embroidery service is perfect for personalizing uniforms, workwear, gifts, and more. We can embroider on almost any type of garment, from t-shirts and polos to jackets and hats.',
-    examples: ['Company uniforms with logos', 'Sports team apparel', 'Personalized gifts with names or special dates', 'Custom designs on jackets or hoodies']
+    details: 'خدمة تطريز الملابس لدينا مثالية لإضفاء طابع شخصي على الزي الرسمي، ملابس العمل، الهدايا، والمزيد. يمكننا التطريز على أي نوع من الملابس تقريبًا، من القمصان والبولو إلى الجاكيتات والقبعات.',
+    examples: ['زي الشركات مع الشعارات', 'ملابس الفرق الرياضية', 'هدايا مخصصة بالأسماء أو تواريخ خاصة', 'تصاميم مخصصة على الجاكيتات أو الهوديز']
   },
   {
     id: '2',
-    title: 'Home Linens',
-    description: 'Personalize your towels, bedding, napkins, and other home textiles.',
+    title: 'مفروشات منزلية',
+    description: 'إضفاء طابع شخصي على مناشفك، أغطية السرير، المناديل، وغيرها من المنسوجات المنزلية.',
     icon: '🏠',
-    details: 'Add a touch of elegance to your home with custom embroidered linens. Whether you\'re looking for monogrammed towels, personalized bedding, or custom napkins for your dining table, we can create beautiful designs that elevate your home decor.',
-    examples: ['Monogrammed towel sets', 'Personalized bedding', 'Custom table linens and napkins', 'Decorative pillows with custom designs']
+    details: 'أضف لمسة من الأناقة إلى منزلك مع المفروشات المنزلية المطرزة المخصصة. سواء كنت تبحث عن مناشف مزينة بالمونوغرام، أغطية سرير مخصصة، أو مناديل مخصصة لطاولة الطعام، يمكننا إنشاء تصاميم جميلة ترفع من مستوى ديكور منزلك.',
+    examples: ['مجموعات مناشف بالمونوغرام', 'أغطية سرير مخصصة', 'مفارش طاولة ومناديل مخصصة', 'وسائد زخرفية بتصاميم مخصصة']
   },
   {
     id: '3',
-    title: 'Corporate Branding',
-    description: 'Consistent, high-quality embroidery for your business apparel and merchandise.',
+    title: 'علامات تجارية للشركات',
+    description: 'تطريز متناسق وعالي الجودة لملابس عملك التجاري والبضائع الترويجية.',
     icon: '💼',
-    details: 'Make your business stand out with professionally embroidered corporate apparel and merchandise. We work with businesses of all sizes to create consistent, high-quality branded items that represent your company with pride.',
-    examples: ['Employee uniforms with company logo', 'Corporate gifts', 'Trade show merchandise', 'Customer-facing apparel']
+    details: 'اجعل عملك التجاري يبرز مع ملابس وبضائع الشركات المطرزة احترافيًا. نحن نعمل مع الشركات من جميع الأحجام لإنشاء عناصر ذات علامات تجارية متناسقة وعالية الجودة تمثل شركتك بفخر.',
+    examples: ['زي الموظفين مع شعار الشركة', 'هدايا الشركات', 'بضائع المعارض التجارية', 'ملابس للتعامل مع العملاء']
   },
   {
     id: '4',
-    title: 'Gift Personalization',
-    description: 'Transform ordinary items into meaningful, personalized gifts.',
+    title: 'تخصيص الهدايا',
+    description: 'تحويل العناصر العادية إلى هدايا ذات معنى ومخصصة.',
     icon: '🎁',
-    details: 'Looking for a unique and thoughtful gift? Our gift personalization service lets you add names, dates, or special messages to a variety of items, creating one-of-a-kind presents for birthdays, weddings, anniversaries, and more.',
-    examples: ['Wedding gifts with couple\'s names and date', 'Baby shower gifts with baby\'s name', 'Anniversary presents with special dates', 'Graduation gifts with school names or years']
+    details: 'تبحث عن هدية فريدة ومدروسة؟ تتيح لك خدمة تخصيص الهدايا لدينا إضافة أسماء أو تواريخ أو رسائل خاصة إلى مجموعة متنوعة من العناصر، مما يخلق هدايا فريدة من نوعها للمناسبات مثل أعياد الميلاد وحفلات الزفاف والذكرى السنوية والمزيد.',
+    examples: ['هدايا الزفاف مع أسماء الزوجين والتاريخ', 'هدايا استقبال المولود مع اسم الطفل', 'هدايا الذكرى السنوية مع تواريخ خاصة', 'هدايا التخرج مع أسماء المدارس أو السنوات']
   }
 ];
 
@@ -55,9 +55,9 @@ const ServicesPage = () => {
       {/* Hero Section */}
       <div className="bg-embroidery-lavender/30 py-12">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">Our Embroidery Services</h1>
+          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">خدمات التطريز لدينا</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our range of professional embroidery services. We provide high-quality, customized embroidery for individuals and businesses alike.
+            اكتشف مجموعة خدمات التطريز الاحترافية لدينا. نقدم تطريزًا عالي الجودة ومخصصًا للأفراد والشركات على حد سواء.
           </p>
         </div>
       </div>
@@ -69,14 +69,14 @@ const ServicesPage = () => {
             <Card key={service.id} className="mb-8 overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-6">
                 <div className="flex flex-col md:flex-row md:items-center mb-4">
-                  <div className="text-4xl mr-4 mb-2 md:mb-0">{service.icon}</div>
+                  <div className="text-4xl ml-4 mb-2 md:mb-0">{service.icon}</div>
                   <h2 className="font-playfair text-2xl font-medium text-embroidery-navy">{service.title}</h2>
                 </div>
                 <p className="text-gray-600 mb-4">{service.details}</p>
                 
                 <div className="mb-4">
-                  <h3 className="text-lg font-medium text-embroidery-navy mb-2">Examples:</h3>
-                  <ul className="list-disc pl-5 text-gray-600">
+                  <h3 className="text-lg font-medium text-embroidery-navy mb-2">أمثلة:</h3>
+                  <ul className="list-disc pr-5 text-gray-600">
                     {service.examples.map((example, index) => (
                       <li key={index}>{example}</li>
                     ))}
@@ -89,31 +89,31 @@ const ServicesPage = () => {
 
         {/* Process Section */}
         <div className="max-w-4xl mx-auto mt-12">
-          <h2 className="text-3xl font-bold text-embroidery-navy mb-6 text-center">Our Process</h2>
+          <h2 className="text-3xl font-bold text-embroidery-navy mb-6 text-center">عملية العمل لدينا</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="text-center">
-              <div className="w-16 h-16 bg-embroidery-rose text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
-              <h3 className="font-playfair text-xl font-medium text-embroidery-navy mb-2">Consultation</h3>
-              <p className="text-gray-600">We discuss your embroidery needs, design ideas, and project specifications.</p>
+              <div className="w-16 h-16 bg-embroidery-rose text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">١</div>
+              <h3 className="font-playfair text-xl font-medium text-embroidery-navy mb-2">الاستشارة</h3>
+              <p className="text-gray-600">نناقش احتياجات التطريز الخاصة بك، أفكار التصميم، ومواصفات المشروع.</p>
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-embroidery-rose text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
-              <h3 className="font-playfair text-xl font-medium text-embroidery-navy mb-2">Design</h3>
-              <p className="text-gray-600">Our designers create a digital proof of your embroidery design for approval.</p>
+              <div className="w-16 h-16 bg-embroidery-rose text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">٢</div>
+              <h3 className="font-playfair text-xl font-medium text-embroidery-navy mb-2">التصميم</h3>
+              <p className="text-gray-600">يقوم مصممونا بإنشاء نموذج رقمي لتصميم التطريز الخاص بك للموافقة عليه.</p>
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-embroidery-rose text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
-              <h3 className="font-playfair text-xl font-medium text-embroidery-navy mb-2">Production</h3>
-              <p className="text-gray-600">Once approved, we carefully embroider your items with precision and care.</p>
+              <div className="w-16 h-16 bg-embroidery-rose text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">٣</div>
+              <h3 className="font-playfair text-xl font-medium text-embroidery-navy mb-2">الإنتاج</h3>
+              <p className="text-gray-600">بمجرد الموافقة، نقوم بتطريز عناصرك بعناية ودقة واهتمام.</p>
             </div>
           </div>
           
           <div className="text-center">
             <Button asChild className="bg-embroidery-rose hover:bg-pink-400 text-white px-8 py-6">
-              <Link to="/contact">Request a Quote</Link>
+              <Link to="/contact">طلب عرض سعر</Link>
             </Button>
           </div>
         </div>

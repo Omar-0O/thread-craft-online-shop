@@ -12,21 +12,21 @@ interface Testimonial {
 const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
-    role: 'Regular Customer',
-    content: 'The quality of embroidery is outstanding! I ordered custom towels for my wedding and they turned out beautifully. Will definitely order again.'
+    name: 'سارة الجاسم',
+    role: 'عميلة دائمة',
+    content: 'جودة التطريز ممتازة! طلبت مناشف مخصصة لحفل زفافي وكانت النتيجة رائعة. سأطلب بالتأكيد مرة أخرى.'
   },
   {
     id: '2',
-    name: 'Michael Rodriguez',
-    role: 'Business Owner',
-    content: 'We\'ve been using Stitch Perfect for our company polo shirts for over a year now. The consistency and attention to detail is impressive.'
+    name: 'محمد الأحمد',
+    role: 'صاحب شركة',
+    content: 'نستخدم خدمات التطريز المثالية لقمصان الشركة منذ أكثر من عام. الاتساق والاهتمام بالتفاصيل مذهل.'
   },
   {
     id: '3',
-    name: 'Emily Thompson',
-    role: 'Interior Designer',
-    content: 'Their custom embroidered pillows are a game-changer for my design projects. The craftsmanship is superior to anything else I\'ve found.'
+    name: 'منى العلي',
+    role: 'مصممة داخلية',
+    content: 'وسائدهم المطرزة المخصصة غيرت مشاريع التصميم الخاصة بي. حرفية متفوقة على أي شيء آخر وجدته.'
   }
 ];
 
@@ -36,10 +36,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-embroidery-navy mb-4">
-            What Our Customers Say
+            ما يقوله عملاؤنا
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our satisfied customers have to say about our work.
+            لا تأخذ كلمتنا فقط. إليك ما يقوله عملاؤنا الراضون عن عملنا.
           </p>
         </div>
 

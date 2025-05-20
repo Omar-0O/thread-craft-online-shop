@@ -12,33 +12,33 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-white shadow-sm" dir="rtl">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="font-playfair text-2xl font-bold text-embroidery-navy">
-              Stitch Perfect
+              فن التطريز
             </h1>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-gray-700 hover:text-embroidery-rose transition-colors">
-              Home
+              الرئيسية
             </Link>
             <Link to="/products" className="text-gray-700 hover:text-embroidery-rose transition-colors">
-              Products
+              المنتجات
             </Link>
             <Link to="/services" className="text-gray-700 hover:text-embroidery-rose transition-colors">
-              Services
+              الخدمات
             </Link>
             <Link to="/about" className="text-gray-700 hover:text-embroidery-rose transition-colors">
-              About Us
+              من نحن
             </Link>
             <Link to="/contact">
               <Button className="bg-embroidery-rose hover:bg-pink-400 text-white">
-                Contact Us
+                اتصل بنا
               </Button>
             </Link>
           </nav>
@@ -64,35 +64,35 @@ const Navbar = () => {
                 className="text-gray-700 hover:text-embroidery-rose transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Home
+                الرئيسية
               </Link>
               <Link
                 to="/products"
                 className="text-gray-700 hover:text-embroidery-rose transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Products
+                المنتجات
               </Link>
               <Link
                 to="/services"
                 className="text-gray-700 hover:text-embroidery-rose transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Services
+                الخدمات
               </Link>
               <Link
                 to="/about"
                 className="text-gray-700 hover:text-embroidery-rose transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
-                About Us
+                من نحن
               </Link>
               <Link
                 to="/contact"
                 className="text-gray-700 hover:text-embroidery-rose transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Contact Us
+                اتصل بنا
               </Link>
             </nav>
           </div>

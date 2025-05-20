@@ -16,32 +16,32 @@ interface Product {
 const FEATURED_PRODUCTS: Product[] = [
   {
     id: '1',
-    name: 'Personalized Hand Towels',
-    description: 'Luxurious cotton towels with custom monogram embroidery.',
+    name: 'مناشف مخصصة',
+    description: 'مناشف قطنية فاخرة مع تطريز مونوغرام مخصص.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 24.99,
     category: 'linens'
   },
   {
     id: '2',
-    name: 'Embroidered Baby Onesie',
-    description: 'Soft cotton onesie with custom name and design.',
+    name: 'ملابس أطفال مطرزة',
+    description: 'ملابس قطنية ناعمة للأطفال مع اسم وتصميم مخصص.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 19.99,
     category: 'clothes'
   },
   {
     id: '3',
-    name: 'Custom Logo Polo Shirts',
-    description: 'Premium quality polo shirts with your business logo.',
+    name: 'قمصان بولو بشعار مخصص',
+    description: 'قمصان بولو عالية الجودة مع شعار عملك التجاري.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 34.99,
     category: 'clothes'
   },
   {
     id: '4',
-    name: 'Embroidered Throw Pillow',
-    description: 'Decorative pillow with custom embroidery design.',
+    name: 'وسادة مطرزة',
+    description: 'وسادة زخرفية مع تطريز مخصص لإضافة لمسة من الأناقة.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 29.99,
     category: 'gifts'
@@ -54,10 +54,10 @@ const FeaturedProducts = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-embroidery-navy mb-4">
-            Our Featured Products
+            منتجاتنا المميزة
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our most popular embroidered items, handcrafted with care and attention to detail.
+            اكتشف أكثر منتجاتنا المطرزة شعبية، المصنوعة يدويًا بعناية واهتمام بالتفاصيل.
           </p>
         </div>
 
@@ -77,9 +77,9 @@ const FeaturedProducts = () => {
                   <p className="text-gray-500 text-sm">{product.description}</p>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="font-medium text-embroidery-navy">${product.price.toFixed(2)}</span>
+                  <span className="font-medium text-embroidery-navy">{product.price.toFixed(2)} ر.س</span>
                   <Button asChild size="sm" className="bg-embroidery-rose hover:bg-pink-400 text-white">
-                    <Link to={`/products/${product.id}`}>View</Link>
+                    <Link to={`/products/${product.id}`}>عرض</Link>
                   </Button>
                 </div>
               </CardContent>
@@ -89,7 +89,7 @@ const FeaturedProducts = () => {
 
         <div className="text-center mt-10">
           <Button asChild variant="outline" className="border-embroidery-navy text-embroidery-navy hover:bg-embroidery-navy hover:text-white">
-            <Link to="/products">View All Products</Link>
+            <Link to="/products">عرض جميع المنتجات</Link>
           </Button>
         </div>
       </div>

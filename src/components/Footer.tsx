@@ -5,14 +5,14 @@ import { Instagram, Facebook, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-embroidery-navy text-white pt-12 pb-6">
+    <footer className="bg-embroidery-navy text-white pt-12 pb-6" dir="rtl">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-playfair text-xl font-medium mb-4">Stitch Perfect</h3>
+            <h3 className="font-playfair text-xl font-medium mb-4">فن التطريز</h3>
             <p className="mb-4 text-gray-300">
-              Quality embroidery services for all your clothing and linen needs. Custom designs with personal touch.
+              خدمات تطريز عالية الجودة لجميع احتياجات الملابس والمفروشات. تصاميم مخصصة بلمسة شخصية.
             </p>
             <div className="flex space-x-4">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-embroidery-rose">
@@ -21,10 +21,10 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-embroidery-rose">
                 <Facebook size={20} />
               </a>
-              <a href="mailto:info@stitchperfect.com" className="text-white hover:text-embroidery-rose">
+              <a href="mailto:info@fantaztriz.com" className="text-white hover:text-embroidery-rose">
                 <Mail size={20} />
               </a>
-              <a href="tel:+1234567890" className="text-white hover:text-embroidery-rose">
+              <a href="tel:+966123456789" className="text-white hover:text-embroidery-rose">
                 <Phone size={20} />
               </a>
             </div>
@@ -32,31 +32,31 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-playfair text-xl font-medium mb-4">Quick Links</h3>
+            <h3 className="font-playfair text-xl font-medium mb-4">روابط سريعة</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-300 hover:text-embroidery-rose transition-colors">
-                  Home
+                  الرئيسية
                 </Link>
               </li>
               <li>
                 <Link to="/products" className="text-gray-300 hover:text-embroidery-rose transition-colors">
-                  Products
+                  المنتجات
                 </Link>
               </li>
               <li>
                 <Link to="/services" className="text-gray-300 hover:text-embroidery-rose transition-colors">
-                  Services
+                  الخدمات
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-embroidery-rose transition-colors">
-                  About Us
+                  من نحن
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-embroidery-rose transition-colors">
-                  Contact
+                  اتصل بنا
                 </Link>
               </li>
             </ul>
@@ -64,22 +64,22 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-playfair text-xl font-medium mb-4">Contact Us</h3>
+            <h3 className="font-playfair text-xl font-medium mb-4">اتصل بنا</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center gap-2">
-                <Phone size={16} /> (123) 456-7890
+                <Phone size={16} /> ٠١٢٣٤٥٦٧٨٩
               </li>
               <li className="flex items-center gap-2">
-                <Mail size={16} /> info@stitchperfect.com
+                <Mail size={16} /> info@fantaztriz.com
               </li>
-              <li>123 Embroidery Lane</li>
-              <li>Stitchville, ST 12345</li>
+              <li>شارع التطريز ١٢٣</li>
+              <li>الرياض، المملكة العربية السعودية</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Stitch Perfect. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} فن التطريز. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>

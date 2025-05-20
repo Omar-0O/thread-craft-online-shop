@@ -17,64 +17,64 @@ interface Product {
 const PRODUCTS: Product[] = [
   {
     id: '1',
-    name: 'Personalized Hand Towels',
-    description: 'Luxurious cotton towels with custom monogram embroidery.',
+    name: 'مناشف مخصصة',
+    description: 'مناشف قطنية فاخرة مع تطريز مونوغرام مخصص.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 24.99,
     category: 'linens'
   },
   {
     id: '2',
-    name: 'Embroidered Baby Onesie',
-    description: 'Soft cotton onesie with custom name and design.',
+    name: 'ملابس أطفال مطرزة',
+    description: 'ملابس قطنية ناعمة للأطفال مع اسم وتصميم مخصص.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 19.99,
     category: 'clothes'
   },
   {
     id: '3',
-    name: 'Custom Logo Polo Shirts',
-    description: 'Premium quality polo shirts with your business logo.',
+    name: 'قمصان بولو بشعار مخصص',
+    description: 'قمصان بولو عالية الجودة مع شعار عملك التجاري.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 34.99,
     category: 'clothes'
   },
   {
     id: '4',
-    name: 'Embroidered Throw Pillow',
-    description: 'Decorative pillow with custom embroidery design.',
+    name: 'وسادة مطرزة',
+    description: 'وسادة زخرفية مع تطريز مخصص لإضافة لمسة من الأناقة.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 29.99,
     category: 'gifts'
   },
   {
     id: '5',
-    name: 'Custom Embroidered Cap',
-    description: 'Classic cap with your custom embroidery design.',
+    name: 'قبعة مطرزة مخصصة',
+    description: 'قبعة كلاسيكية مع تصميم تطريز مخصص.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 17.99,
     category: 'clothes'
   },
   {
     id: '6',
-    name: 'Monogrammed Napkin Set',
-    description: 'Set of 4 elegant napkins with custom monograms.',
+    name: 'طقم مناديل مطرزة',
+    description: 'مجموعة من 4 مناديل أنيقة مع مونوغرامات مخصصة.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 32.99,
     category: 'linens'
   },
   {
     id: '7',
-    name: 'Personalized Tote Bag',
-    description: 'Sturdy canvas tote with custom embroidered design.',
+    name: 'حقيبة مخصصة',
+    description: 'حقيبة قماشية متينة مع تصميم مطرز مخصص.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 27.99,
     category: 'gifts'
   },
   {
     id: '8',
-    name: 'Custom Embroidered Bathrobe',
-    description: 'Luxurious terry cloth bathrobe with monogram.',
+    name: 'روب استحمام مطرز',
+    description: 'روب استحمام فاخر من نسيج التيري مع مونوغرام.',
     image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
     price: 59.99,
     category: 'linens'
@@ -82,10 +82,10 @@ const PRODUCTS: Product[] = [
 ];
 
 const CATEGORIES = [
-  { id: 'all', name: 'All Products' },
-  { id: 'clothes', name: 'Clothes' },
-  { id: 'linens', name: 'Linens' },
-  { id: 'gifts', name: 'Gifts' }
+  { id: 'all', name: 'جميع المنتجات' },
+  { id: 'clothes', name: 'ملابس' },
+  { id: 'linens', name: 'مفروشات' },
+  { id: 'gifts', name: 'هدايا' }
 ];
 
 const ProductsPage = () => {
@@ -100,9 +100,9 @@ const ProductsPage = () => {
       {/* Hero Section */}
       <div className="bg-embroidery-lavender/30 py-12">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">Our Products</h1>
+          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">منتجاتنا</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Browse our selection of custom embroidery products. Each item can be personalized to your specifications.
+            تصفح مجموعتنا من منتجات التطريز المخصصة. يمكن تخصيص كل عنصر وفقًا لمواصفاتك.
           </p>
         </div>
       </div>
@@ -143,9 +143,9 @@ const ProductsPage = () => {
                   <p className="text-gray-500 text-sm">{product.description}</p>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="font-medium text-embroidery-navy">${product.price.toFixed(2)}</span>
+                  <span className="font-medium text-embroidery-navy">{product.price.toFixed(2)} ر.س</span>
                   <Button asChild size="sm" className="bg-embroidery-rose hover:bg-pink-400 text-white">
-                    <Link to={`/products/${product.id}`}>View</Link>
+                    <Link to={`/products/${product.id}`}>عرض</Link>
                   </Button>
                 </div>
               </CardContent>
@@ -156,8 +156,8 @@ const ProductsPage = () => {
         {/* Empty State */}
         {filteredProducts.length === 0 && (
           <div className="text-center py-12">
-            <h3 className="text-lg font-medium text-gray-700 mb-2">No products found</h3>
-            <p className="text-gray-500">Try selecting a different category or check back later.</p>
+            <h3 className="text-lg font-medium text-gray-700 mb-2">لم يتم العثور على منتجات</h3>
+            <p className="text-gray-500">حاول تحديد فئة مختلفة أو تحقق مرة أخرى لاحقًا.</p>
           </div>
         )}
       </div>

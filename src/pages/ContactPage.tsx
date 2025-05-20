@@ -14,8 +14,8 @@ const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Message Sent",
-      description: "We've received your message and will get back to you soon!",
+      title: "تم إرسال الرسالة",
+      description: "لقد تلقينا رسالتك وسنتواصل معك قريباً!",
       duration: 5000,
     });
     // Reset form (would typically be handled with form state)
@@ -27,9 +27,9 @@ const ContactPage = () => {
       {/* Hero Section */}
       <div className="bg-embroidery-lavender/30 py-12">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">اتصل بنا</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We'd love to hear from you. Reach out with any questions or to request a quote for your embroidery project.
+            يسعدنا التواصل معك. تواصل معنا لأي استفسارات أو لطلب عرض سعر لمشروع التطريز الخاص بك.
           </p>
         </div>
       </div>
@@ -39,64 +39,64 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Contact Information */}
           <div>
-            <h2 className="text-2xl font-bold text-embroidery-navy mb-6 font-playfair">Get In Touch</h2>
+            <h2 className="text-2xl font-bold text-embroidery-navy mb-6 font-playfair">تواصل معنا</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
-                    <Phone className="text-embroidery-rose mr-2" size={20} />
-                    <h3 className="font-medium text-lg">Phone</h3>
+                    <Phone className="text-embroidery-rose ml-2" size={20} />
+                    <h3 className="font-medium text-lg">الهاتف</h3>
                   </div>
-                  <p className="text-gray-600">(123) 456-7890</p>
-                  <p className="text-gray-500 text-sm mt-1">Mon-Fri, 9am to 5pm</p>
+                  <p className="text-gray-600">٠١٢٣٤٥٦٧٨٩</p>
+                  <p className="text-gray-500 text-sm mt-1">من الأحد إلى الخميس، ٩ ص - ٥ م</p>
                 </CardContent>
               </Card>
               
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
-                    <Mail className="text-embroidery-rose mr-2" size={20} />
-                    <h3 className="font-medium text-lg">Email</h3>
+                    <Mail className="text-embroidery-rose ml-2" size={20} />
+                    <h3 className="font-medium text-lg">البريد الإلكتروني</h3>
                   </div>
-                  <p className="text-gray-600">info@stitchperfect.com</p>
-                  <p className="text-gray-500 text-sm mt-1">We respond within 24 hours</p>
+                  <p className="text-gray-600">info@fantaztriz.com</p>
+                  <p className="text-gray-500 text-sm mt-1">نرد خلال ٢٤ ساعة</p>
                 </CardContent>
               </Card>
               
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
-                    <Facebook className="text-embroidery-rose mr-2" size={20} />
-                    <h3 className="font-medium text-lg">Facebook</h3>
+                    <Facebook className="text-embroidery-rose ml-2" size={20} />
+                    <h3 className="font-medium text-lg">فيسبوك</h3>
                   </div>
-                  <p className="text-gray-600">@StitchPerfect</p>
-                  <p className="text-gray-500 text-sm mt-1">Message us on Facebook</p>
+                  <p className="text-gray-600">@FanTaztriz</p>
+                  <p className="text-gray-500 text-sm mt-1">راسلنا على فيسبوك</p>
                 </CardContent>
               </Card>
               
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
-                    <Instagram className="text-embroidery-rose mr-2" size={20} />
-                    <h3 className="font-medium text-lg">Instagram</h3>
+                    <Instagram className="text-embroidery-rose ml-2" size={20} />
+                    <h3 className="font-medium text-lg">انستغرام</h3>
                   </div>
-                  <p className="text-gray-600">@StitchPerfect</p>
-                  <p className="text-gray-500 text-sm mt-1">Follow us for latest designs</p>
+                  <p className="text-gray-600">@FanTaztriz</p>
+                  <p className="text-gray-500 text-sm mt-1">تابعنا لأحدث التصاميم</p>
                 </CardContent>
               </Card>
             </div>
 
             <div>
-              <h3 className="font-medium text-lg mb-2">Location</h3>
+              <h3 className="font-medium text-lg mb-2">الموقع</h3>
               <p className="text-gray-600 mb-4">
-                123 Embroidery Lane<br />
-                Stitchville, ST 12345
+                شارع التطريز ١٢٣<br />
+                الرياض، المملكة العربية السعودية
               </p>
               <div className="aspect-video bg-gray-200 rounded-lg">
                 {/* This would be replaced with an actual map */}
                 <div className="w-full h-full flex items-center justify-center text-gray-400">
-                  Map would be displayed here
+                  سيتم عرض الخريطة هنا
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ const ContactPage = () => {
 
           {/* Contact Form */}
           <div>
-            <h2 className="text-2xl font-bold text-embroidery-navy mb-6 font-playfair">Send Us a Message</h2>
+            <h2 className="text-2xl font-bold text-embroidery-navy mb-6 font-playfair">أرسل لنا رسالة</h2>
             
             <Card>
               <CardContent className="p-6">
@@ -112,41 +112,41 @@ const ContactPage = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <label htmlFor="name" className="text-sm font-medium text-gray-700">
-                        Your Name
+                        الاسم
                       </label>
-                      <Input id="name" required placeholder="Enter your name" />
+                      <Input id="name" required placeholder="أدخل اسمك" />
                     </div>
                     <div className="space-y-2">
                       <label htmlFor="email" className="text-sm font-medium text-gray-700">
-                        Your Email
+                        البريد الإلكتروني
                       </label>
-                      <Input id="email" type="email" required placeholder="Enter your email" />
+                      <Input id="email" type="email" required placeholder="أدخل بريدك الإلكتروني" />
                     </div>
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="phone" className="text-sm font-medium text-gray-700">
-                      Phone Number
+                      رقم الهاتف
                     </label>
-                    <Input id="phone" placeholder="Enter your phone number (optional)" />
+                    <Input id="phone" placeholder="أدخل رقم هاتفك (اختياري)" />
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="subject" className="text-sm font-medium text-gray-700">
-                      Subject
+                      الموضوع
                     </label>
-                    <Input id="subject" required placeholder="What is this regarding?" />
+                    <Input id="subject" required placeholder="بخصوص ماذا هذه الرسالة؟" />
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="message" className="text-sm font-medium text-gray-700">
-                      Message
+                      الرسالة
                     </label>
-                    <Textarea id="message" required placeholder="Tell us about your project or inquiry" className="min-h-[150px]" />
+                    <Textarea id="message" required placeholder="أخبرنا عن مشروعك أو استفسارك" className="min-h-[150px]" />
                   </div>
                   
                   <Button type="submit" className="w-full bg-embroidery-rose hover:bg-pink-400 text-white">
-                    Send Message
+                    إرسال الرسالة
                   </Button>
                 </form>
               </CardContent>
@@ -160,9 +160,9 @@ const ContactPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-embroidery-navy mb-4 font-playfair">Request a Custom Order</h2>
+              <h2 className="text-3xl font-bold text-embroidery-navy mb-4 font-playfair">طلب تطريز مخصص</h2>
               <p className="text-gray-600">
-                Need something special? Fill out our custom order form and we'll get back to you with a quote.
+                تحتاج إلى شيء خاص؟ املأ نموذج الطلب المخصص وسنعود إليك بعرض سعر.
               </p>
             </div>
             
@@ -172,55 +172,55 @@ const ContactPage = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <label htmlFor="custom-name" className="text-sm font-medium text-gray-700">
-                        Your Name
+                        الاسم
                       </label>
-                      <Input id="custom-name" required placeholder="Enter your name" />
+                      <Input id="custom-name" required placeholder="أدخل اسمك" />
                     </div>
                     <div className="space-y-2">
                       <label htmlFor="custom-email" className="text-sm font-medium text-gray-700">
-                        Your Email
+                        البريد الإلكتروني
                       </label>
-                      <Input id="custom-email" type="email" required placeholder="Enter your email" />
+                      <Input id="custom-email" type="email" required placeholder="أدخل بريدك الإلكتروني" />
                     </div>
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="custom-phone" className="text-sm font-medium text-gray-700">
-                      Phone Number
+                      رقم الهاتف
                     </label>
-                    <Input id="custom-phone" placeholder="Enter your phone number" />
+                    <Input id="custom-phone" placeholder="أدخل رقم هاتفك" />
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="product-type" className="text-sm font-medium text-gray-700">
-                      Product Type
+                      نوع المنتج
                     </label>
-                    <Input id="product-type" required placeholder="What item would you like embroidered?" />
+                    <Input id="product-type" required placeholder="ما هو المنتج الذي ترغب في تطريزه؟" />
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="quantity" className="text-sm font-medium text-gray-700">
-                      Quantity
+                      الكمية
                     </label>
-                    <Input id="quantity" type="number" min="1" required placeholder="How many items do you need?" />
+                    <Input id="quantity" type="number" min="1" required placeholder="كم عدد القطع التي تحتاجها؟" />
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="design-description" className="text-sm font-medium text-gray-700">
-                      Design Description
+                      وصف التصميم
                     </label>
-                    <Textarea id="design-description" required placeholder="Describe the design you'd like embroidered" className="min-h-[100px]" />
+                    <Textarea id="design-description" required placeholder="صف التصميم الذي ترغب في تطريزه" className="min-h-[100px]" />
                   </div>
                   
                   <div className="space-y-2">
                     <label htmlFor="additional-info" className="text-sm font-medium text-gray-700">
-                      Additional Information
+                      معلومات إضافية
                     </label>
-                    <Textarea id="additional-info" placeholder="Any other details we should know?" />
+                    <Textarea id="additional-info" placeholder="أي تفاصيل أخرى يجب أن نعرفها؟" />
                   </div>
                   
                   <Button type="submit" className="w-full bg-embroidery-rose hover:bg-pink-400 text-white">
-                    Request Quote
+                    طلب عرض سعر
                   </Button>
                 </form>
               </CardContent>

@@ -12,26 +12,26 @@ interface Service {
 const SERVICES: Service[] = [
   {
     id: '1',
-    title: 'Custom Clothing Embroidery',
-    description: 'Add personalized designs, names, or logos to any clothing item.',
+    title: 'تطريز ملابس مخصصة',
+    description: 'إضافة تصاميم شخصية، أسماء، أو شعارات على أي قطعة ملابس.',
     icon: '👕'
   },
   {
     id: '2',
-    title: 'Home Linens',
-    description: 'Personalize your towels, bedding, napkins, and other home textiles.',
+    title: 'مفروشات منزلية',
+    description: 'إضفاء طابع شخصي على مناشفك، أغطية السرير، المناديل، وغيرها من المنسوجات المنزلية.',
     icon: '🏠'
   },
   {
     id: '3',
-    title: 'Corporate Branding',
-    description: 'Consistent, high-quality embroidery for your business apparel and merchandise.',
+    title: 'تصميم شعارات الشركات',
+    description: 'تطريز متناسق وعالي الجودة لملابس عملك التجاري والبضائع الترويجية.',
     icon: '💼'
   },
   {
     id: '4',
-    title: 'Gift Personalization',
-    description: 'Transform ordinary items into meaningful, personalized gifts.',
+    title: 'تخصيص الهدايا',
+    description: 'تحويل العناصر العادية إلى هدايا ذات معنى ومخصصة.',
     icon: '🎁'
   }
 ];
@@ -42,10 +42,10 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-embroidery-navy mb-4">
-            Our Embroidery Services
+            خدمات التطريز لدينا
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            From custom clothing to home linens and corporate branding, we offer a variety of embroidery services to meet your needs.
+            من الملابس المخصصة إلى المفروشات المنزلية والعلامات التجارية للشركات، نقدم مجموعة متنوعة من خدمات التطريز لتلبية احتياجاتك.
           </p>
         </div>
 

@@ -10,9 +10,9 @@ const AboutPage = () => {
       {/* Hero Section */}
       <div className="bg-embroidery-lavender/30 py-12">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">About Stitch Perfect</h1>
+          <h1 className="text-4xl font-bold text-embroidery-navy mb-4">عن فن التطريز</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Get to know our story, our team, and our passion for embroidery.
+            تعرف على قصتنا، وفريقنا، وشغفنا بالتطريز.
           </p>
         </div>
       </div>
@@ -21,21 +21,21 @@ const AboutPage = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
           <div>
-            <h2 className="text-3xl font-bold text-embroidery-navy mb-4 font-playfair">Our Story</h2>
+            <h2 className="text-3xl font-bold text-embroidery-navy mb-4 font-playfair">قصتنا</h2>
             <p className="text-gray-600 mb-4">
-              Stitch Perfect was founded in 2010 by Emma Johnson, a textile artist with a passion for embroidery and personalized creations. What started as a small home-based business has grown into a trusted embroidery service with a dedicated team of skilled craftspeople.
+              تأسست شركة فن التطريز في عام 2010 على يد أميرة الخالدي، وهي فنانة في مجال النسيج وشغوفة بالتطريز والإبداعات المخصصة. ما بدأ كمشروع صغير في المنزل تطور إلى خدمة تطريز موثوقة مع فريق متخصص من الحرفيين الماهرين.
             </p>
             <p className="text-gray-600 mb-4">
-              Over the years, we've had the privilege of working with hundreds of individuals and businesses, bringing their embroidery visions to life. From wedding gifts to corporate branding, we take pride in creating high-quality, personalized items that exceed our customers' expectations.
+              على مر السنين، كان لنا شرف العمل مع مئات الأفراد والشركات، لتحويل رؤى التطريز الخاصة بهم إلى حقيقة. من هدايا الزفاف إلى العلامات التجارية للشركات، نحن نفخر بإنشاء عناصر مخصصة عالية الجودة تفوق توقعات عملائنا.
             </p>
             <p className="text-gray-600">
-              Today, Stitch Perfect continues to combine traditional embroidery techniques with modern technology to deliver exceptional results on a wide range of products.
+              اليوم، تواصل شركة فن التطريز الجمع بين تقنيات التطريز التقليدية والتكنولوجيا الحديثة لتقديم نتائج استثنائية على مجموعة واسعة من المنتجات.
             </p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-              alt="Our embroidery studio"
+              alt="استوديو التطريز الخاص بنا"
               className="w-full h-full object-cover"
             />
           </div>
@@ -46,31 +46,31 @@ const AboutPage = () => {
       <div className="bg-embroidery-cream py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-embroidery-navy mb-6 text-center font-playfair">Our Values</h2>
+            <h2 className="text-3xl font-bold text-embroidery-navy mb-6 text-center font-playfair">قيمنا</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                   <span className="text-3xl">🧵</span>
                 </div>
-                <h3 className="text-xl font-medium text-embroidery-navy mb-2">Quality</h3>
-                <p className="text-gray-600">We're committed to using premium materials and maintaining the highest standards in our work.</p>
+                <h3 className="text-xl font-medium text-embroidery-navy mb-2">الجودة</h3>
+                <p className="text-gray-600">نحن ملتزمون باستخدام مواد ممتازة والحفاظ على أعلى المعايير في عملنا.</p>
               </div>
               
               <div className="text-center">
                 <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                   <span className="text-3xl">🎨</span>
                 </div>
-                <h3 className="text-xl font-medium text-embroidery-navy mb-2">Creativity</h3>
-                <p className="text-gray-600">We bring artistic vision and creative solutions to every project we undertake.</p>
+                <h3 className="text-xl font-medium text-embroidery-navy mb-2">الإبداع</h3>
+                <p className="text-gray-600">نضيف رؤية فنية وحلول إبداعية لكل مشروع نتولاه.</p>
               </div>
               
               <div className="text-center">
                 <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                   <span className="text-3xl">👥</span>
                 </div>
-                <h3 className="text-xl font-medium text-embroidery-navy mb-2">Service</h3>
-                <p className="text-gray-600">We prioritize customer satisfaction and personalized attention in everything we do.</p>
+                <h3 className="text-xl font-medium text-embroidery-navy mb-2">الخدمة</h3>
+                <p className="text-gray-600">نعطي الأولوية لرضا العملاء والاهتمام الشخصي في كل ما نقوم به.</p>
               </div>
             </div>
           </div>
@@ -80,46 +80,46 @@ const AboutPage = () => {
       {/* Meet Our Team */}
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-embroidery-navy mb-6 text-center font-playfair">Meet Our Team</h2>
+          <h2 className="text-3xl font-bold text-embroidery-navy mb-6 text-center font-playfair">تعرف على فريقنا</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="rounded-full overflow-hidden w-32 h-32 mx-auto mb-4">
                 <img
                   src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                  alt="Emma Johnson"
+                  alt="أميرة الخالدي"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium text-embroidery-navy mb-1">Emma Johnson</h3>
-              <p className="text-embroidery-rose mb-2">Founder & Lead Designer</p>
-              <p className="text-gray-600 text-sm">Emma has over 15 years of experience in textile arts and embroidery design.</p>
+              <h3 className="text-xl font-medium text-embroidery-navy mb-1">أميرة الخالدي</h3>
+              <p className="text-embroidery-rose mb-2">المؤسسة ومصممة رئيسية</p>
+              <p className="text-gray-600 text-sm">تمتلك أميرة خبرة أكثر من 15 عامًا في فنون النسيج وتصميم التطريز.</p>
             </div>
             
             <div className="text-center">
               <div className="rounded-full overflow-hidden w-32 h-32 mx-auto mb-4">
                 <img
                   src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                  alt="Michael Rodriguez"
+                  alt="ياسر العتيبي"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium text-embroidery-navy mb-1">Michael Rodriguez</h3>
-              <p className="text-embroidery-rose mb-2">Production Manager</p>
-              <p className="text-gray-600 text-sm">Michael ensures that every order is completed with precision and on time.</p>
+              <h3 className="text-xl font-medium text-embroidery-navy mb-1">ياسر العتيبي</h3>
+              <p className="text-embroidery-rose mb-2">مدير الإنتاج</p>
+              <p className="text-gray-600 text-sm">يضمن ياسر أن كل طلب يتم إنجازه بدقة وفي الوقت المحدد.</p>
             </div>
             
             <div className="text-center">
               <div className="rounded-full overflow-hidden w-32 h-32 mx-auto mb-4">
                 <img
                   src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                  alt="Sarah Kim"
+                  alt="لينا القحطاني"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium text-embroidery-navy mb-1">Sarah Kim</h3>
-              <p className="text-embroidery-rose mb-2">Customer Relations</p>
-              <p className="text-gray-600 text-sm">Sarah is dedicated to providing excellent service and support to our clients.</p>
+              <h3 className="text-xl font-medium text-embroidery-navy mb-1">لينا القحطاني</h3>
+              <p className="text-embroidery-rose mb-2">علاقات العملاء</p>
+              <p className="text-gray-600 text-sm">لينا مكرسة لتقديم خدمة ودعم ممتاز لعملائنا.</p>
             </div>
           </div>
         </div>
@@ -128,12 +128,12 @@ const AboutPage = () => {
       {/* Call to Action */}
       <div className="bg-embroidery-navy text-white py-12">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 font-playfair">Ready to Work With Us?</h2>
+          <h2 className="text-3xl font-bold mb-4 font-playfair">هل أنت مستعد للعمل معنا؟</h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-6">
-            We'd love to discuss your embroidery needs and how we can help bring your ideas to life.
+            سنكون سعداء بمناقشة احتياجات التطريز الخاصة بك وكيف يمكننا مساعدتك في تحويل أفكارك إلى واقع.
           </p>
           <Button asChild className="bg-embroidery-rose hover:bg-pink-400 text-white px-8 py-6">
-            <Link to="/contact">Contact Us Today</Link>
+            <Link to="/contact">اتصل بنا اليوم</Link>
           </Button>
         </div>
       </div>
