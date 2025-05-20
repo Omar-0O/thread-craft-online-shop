@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-playfair text-xl font-medium mb-4">فن التطريز</h3>
+            <h3 className="font-playfair text-xl font-medium mb-4">نعمة للمفروشات</h3>
             <p className="mb-4 text-gray-300">
               خدمات تطريز عالية الجودة لجميع احتياجات الملابس والمفروشات. تصاميم مخصصة بلمسة شخصية.
             </p>
@@ -21,10 +21,10 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-embroidery-rose">
                 <Facebook size={20} />
               </a>
-              <a href="mailto:info@fantaztriz.com" className="text-white hover:text-embroidery-rose">
+              <a href="mailto:info@neamafurnishings.com" className="text-white hover:text-embroidery-rose">
                 <Mail size={20} />
               </a>
-              <a href="tel:+966123456789" className="text-white hover:text-embroidery-rose">
+              <a href="tel:+20123456789" className="text-white hover:text-embroidery-rose">
                 <Phone size={20} />
               </a>
             </div>
@@ -70,16 +70,16 @@ const Footer = () => {
                 <Phone size={16} /> ٠١٢٣٤٥٦٧٨٩
               </li>
               <li className="flex items-center gap-2">
-                <Mail size={16} /> info@fantaztriz.com
+                <Mail size={16} /> info@neamafurnishings.com
               </li>
               <li>شارع التطريز ١٢٣</li>
-              <li>الرياض، المملكة العربية السعودية</li>
+              <li>القاهرة، مصر</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} فن التطريز. جميع الحقوق محفوظة.</p>
+          <p>&copy; {new Date().getFullYear()} نعمة للمفروشات. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>

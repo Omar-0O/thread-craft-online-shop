@@ -18,7 +18,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="font-playfair text-2xl font-bold text-embroidery-navy">
-              فن التطريز
+              نعمة للمفروشات
             </h1>
           </Link>
 
