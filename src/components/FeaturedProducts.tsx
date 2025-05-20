@@ -77,7 +77,7 @@ const FeaturedProducts = () => {
                   <p className="text-gray-500 text-sm">{product.description}</p>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="font-medium text-embroidery-navy">{product.price.toFixed(2)} ر.س</span>
+                  <span className="font-medium text-embroidery-navy">{product.price.toFixed(2)} ج.م</span>
                   <Button asChild size="sm" className="bg-embroidery-rose hover:bg-pink-400 text-white">
                     <Link to={`/products/${product.id}`}>عرض</Link>
                   </Button>

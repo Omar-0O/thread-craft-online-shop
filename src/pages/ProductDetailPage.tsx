@@ -43,7 +43,7 @@ const PRODUCTS: Record<string, Product> = {
     price: 34.99,
     category: 'clothes',
     details: 'قمصان البولو الخاصة بنا مصنوعة من القطن عالي الجودة وتوفر مظهرًا احترافيًا لفريق عملك. يمكن تخصيص كل قميص بشعار شركتك المطرز أو اسمها، مثالية للموظفين أو الفعاليات التسويقية.',
-    options: ['خيارات المقاسات (S، M، L， XL， XXL)', 'ألوان متعددة متاحة', 'خيارات موقع الشعار (الصدر، الكم، الظهر)']
+    options: ['خيارات المقاسات (S، M， L， XL， XXL)', 'ألوان متعددة متاحة', 'خيارات موقع الشعار (الصدر، الكم، الظهر)']
   },
   '4': {
     id: '4',
@@ -93,7 +93,7 @@ const PRODUCTS: Record<string, Product> = {
     price: 59.99,
     category: 'linens',
     details: 'أرواب الاستحمام الفاخرة لدينا مصنوعة من نسيج التيري عالي الجودة للحصول على تجربة ناعمة وماصة. كل روب يمكن تخصيصه بمونوغرام أنيق أو اسم كامل، مما يجعلها هدية مثالية أو إضافة أنيقة إلى الحمام الخاص بك.',
-    options: ['خيارات المقاسات (S، M، L， XL)', 'ألوان متعددة متاحة', 'خيارات موقع التطريز وأسلوبه']
+    options: ['خيارات المقاسات (S، M， L， XL)', 'ألوان متعددة متاحة', 'خيارات موقع التطريز وأسلوبه']
   }
 };
 
@@ -123,7 +123,7 @@ const ProductDetailPage = () => {
           {/* Product Details */}
           <div>
             <h1 className="text-3xl font-bold text-embroidery-navy mb-2">{product.name}</h1>
-            <p className="text-2xl text-embroidery-rose mb-4">{product.price.toFixed(2)} ر.س</p>
+            <p className="text-2xl text-embroidery-rose mb-4">{product.price.toFixed(2)} ج.م</p>
             <p className="text-gray-600 mb-6">{product.description}</p>
             
             {product.details && (
