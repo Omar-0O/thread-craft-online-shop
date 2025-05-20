@@ -19,7 +19,7 @@ const PRODUCTS: Product[] = [
     id: '1',
     name: 'مناشف مخصصة',
     description: 'مناشف قطنية فاخرة مع تطريز مونوغرام مخصص.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1606333854273-60a4cdf35629?auto=format&fit=crop&q=80',
     price: 24.99,
     category: 'linens'
   },
@@ -27,7 +27,7 @@ const PRODUCTS: Product[] = [
     id: '2',
     name: 'ملابس أطفال مطرزة',
     description: 'ملابس قطنية ناعمة للأطفال مع اسم وتصميم مخصص.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1600369671236-e74451ea2681?auto=format&fit=crop&q=80',
     price: 19.99,
     category: 'clothes'
   },
@@ -35,7 +35,7 @@ const PRODUCTS: Product[] = [
     id: '3',
     name: 'قمصان بولو بشعار مخصص',
     description: 'قمصان بولو عالية الجودة مع شعار عملك التجاري.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?auto=format&fit=crop&q=80',
     price: 34.99,
     category: 'clothes'
   },
@@ -43,7 +43,7 @@ const PRODUCTS: Product[] = [
     id: '4',
     name: 'وسادة مطرزة',
     description: 'وسادة زخرفية مع تطريز مخصص لإضافة لمسة من الأناقة.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1613953317771-874bf36dacd6?auto=format&fit=crop&q=80',
     price: 29.99,
     category: 'gifts'
   },
@@ -51,7 +51,7 @@ const PRODUCTS: Product[] = [
     id: '5',
     name: 'قبعة مطرزة مخصصة',
     description: 'قبعة كلاسيكية مع تصميم تطريز مخصص.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&q=80',
     price: 17.99,
     category: 'clothes'
   },
@@ -59,7 +59,7 @@ const PRODUCTS: Product[] = [
     id: '6',
     name: 'طقم مناديل مطرزة',
     description: 'مجموعة من 4 مناديل أنيقة مع مونوغرامات مخصصة.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1606333395857-f5069964519a?auto=format&fit=crop&q=80',
     price: 32.99,
     category: 'linens'
   },
@@ -67,7 +67,7 @@ const PRODUCTS: Product[] = [
     id: '7',
     name: 'حقيبة مخصصة',
     description: 'حقيبة قماشية متينة مع تصميم مطرز مخصص.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&q=80',
     price: 27.99,
     category: 'gifts'
   },
@@ -75,7 +75,7 @@ const PRODUCTS: Product[] = [
     id: '8',
     name: 'روب استحمام مطرز',
     description: 'روب استحمام فاخر من نسيج التيري مع مونوغرام.',
-    image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    image: 'https://images.unsplash.com/photo-1605488686056-7714692352e7?auto=format&fit=crop&q=80',
     price: 59.99,
     category: 'linens'
   }
