@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				embroidery: {
+					rose: '#F8B4C6',
+					lavender: '#E5DEFF',
+					mint: '#D3ECD0',
+					cream: '#FFF9E6',
+					navy: '#2A324B',
+					dark: '#333333'
 				}
 			},
 			borderRadius: {
@@ -89,6 +98,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				playfair: ['Playfair Display', 'serif'],
+				poppins: ['Poppins', 'sans-serif']
 			}
 		}
 	},
