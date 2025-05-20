@@ -72,8 +72,8 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <Mail size={16} /> info@neamafurnishings.com
               </li>
-              <li>شارع التطريز ١٢٣</li>
-              <li>القاهرة، مصر</li>
+              <li>شارع المعتمدية ١٢٣</li>
+              <li>ارض اللوا، مصر</li>
             </ul>
           </div>
         </div>

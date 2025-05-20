@@ -23,13 +23,14 @@ const AboutPage = () => {
           <div>
             <h2 className="text-3xl font-bold text-embroidery-navy mb-4 font-playfair">قصتنا</h2>
             <p className="text-gray-600 mb-4">
-              تأسست شركة فن التطريز في عام 2010 على يد أميرة الخالدي، وهي فنانة في مجال النسيج وشغوفة بالتطريز والإبداعات المخصصة. ما بدأ كمشروع صغير في المنزل تطور إلى خدمة تطريز موثوقة مع فريق متخصص من الحرفيين الماهرين.
-            </p>
+بدأت فكرتنا من شغف بسيط بالتطريز والفن اليدوي، ومع الوقت تحوّل هذا الشغف إلى مشروع حقيقي يجمع بين الذوق العربي الأصيل واللمسات الإبداعية الحديثة. في البداية كانت الفكرة مجرد هواية، نطرّز فيها لبعض الأهل والأصدقاء، لكن مع كل قطعة كان فيه إعجاب، ومع كل طلب جديد، كان فيه إصرار إننا نكبر.            </p>
             <p className="text-gray-600 mb-4">
-              على مر السنين، كان لنا شرف العمل مع مئات الأفراد والشركات، لتحويل رؤى التطريز الخاصة بهم إلى حقيقة. من هدايا الزفاف إلى العلامات التجارية للشركات، نحن نفخر بإنشاء عناصر مخصصة عالية الجودة تفوق توقعات عملائنا.
+أسّسنا المشروع على أساس الجودة والتميّز، واخترنا بعناية كل خامة وكل خيط، لأننا نؤمن إن التفاصيل الصغيرة هي اللي تصنع الفرق الكبير. ومن يومها، بدأنا نخطو بخطى ثابتة، نطوّر منتجاتنا، ونبني علاقتنا مع عملائنا خطوة بخطوة.
+
             </p>
             <p className="text-gray-600">
-              اليوم، تواصل شركة فن التطريز الجمع بين تقنيات التطريز التقليدية والتكنولوجيا الحديثة لتقديم نتائج استثنائية على مجموعة واسعة من المنتجات.
+اليوم، مشروعنا هو ثمرة تعب وشغف، مبني على حب الحرفة، واحترام ذوق العميل، ورغبتنا في تقديم شيء مختلف... شيء يليق بكل شخص يبحث عن لمسة فنية تُحكى.
+
             </p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
@@ -86,40 +87,39 @@ const AboutPage = () => {
             <div className="text-center">
               <div className="rounded-full overflow-hidden w-32 h-32 mx-auto mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
+                  src="https://i.pinimg.com/736x/63/ff/17/63ff1747dd33a6cc10fb30c235f916a6.jpg"
                   alt="أميرة الخالدي"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium text-embroidery-navy mb-1">أميرة الخالدي</h3>
+              <h3 className="text-xl font-medium text-embroidery-navy mb-1">نعمة احمد</h3>
               <p className="text-embroidery-rose mb-2">المؤسسة ومصممة رئيسية</p>
-              <p className="text-gray-600 text-sm">تمتلك أميرة خبرة أكثر من 15 عامًا في فنون النسيج وتصميم التطريز.</p>
+              <p className="text-gray-600 text-sm">تمتلك نعمة خبرة أكثر من 15 عامًا في فنون النسيج وتصميم التطريز.</p>
             </div>
             
             <div className="text-center">
               <div className="rounded-full overflow-hidden w-32 h-32 mx-auto mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                  alt="ياسر العتيبي"
+                  src="https://i.pinimg.com/736x/db/c0/bc/dbc0bc94aee7727a5755d46a42719849.jpg"
+                  alt="عمر"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium text-embroidery-navy mb-1">ياسر العتيبي</h3>
-              <p className="text-embroidery-rose mb-2">مدير الإنتاج</p>
-              <p className="text-gray-600 text-sm">يضمن ياسر أن كل طلب يتم إنجازه بدقة وفي الوقت المحدد.</p>
+              <h3 className="text-xl font-medium text-embroidery-navy mb-1">عمر محمد</h3>
+              <p className="text-embroidery-rose mb-2">مبرمج</p>
+              <p className="text-gray-600 text-sm">يضمن عمرالدقة في عمله.</p>
             </div>
             
             <div className="text-center">
               <div className="rounded-full overflow-hidden w-32 h-32 mx-auto mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
-                  alt="لينا القحطاني"
+                  src="https://i.pinimg.com/736x/b8/3d/74/b83d74d9f6a43e738a9d4d24996a8cd1.jpg"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-medium text-embroidery-navy mb-1">لينا القحطاني</h3>
+              <h3 className="text-xl font-medium text-embroidery-navy mb-1">القطة بتاعتي</h3>
               <p className="text-embroidery-rose mb-2">علاقات العملاء</p>
-              <p className="text-gray-600 text-sm">لينا مكرسة لتقديم خدمة ودعم ممتاز لعملائنا.</p>
+              <p className="text-gray-600 text-sm">سمسمة مكرسة لتقديم خدمة ودعم ممتاز لعملائنا .</p>
             </div>
           </div>
         </div>
